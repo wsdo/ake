@@ -5,10 +5,10 @@ export PATH
 # zsh 
 
 # Check if user is root
-if [ $(id -u) != "0" ]; then
-    echo "Error: You must be root to run this script!"
-    exit 1
-fi
+# if [ $(id -u) != "0" ]; then
+#     echo "Error: You must be root to run this script!"
+#     exit 1
+# fi
 
 echo "+-------------------------------------------+"
 echo "|              Welcome to rdtool            |"
