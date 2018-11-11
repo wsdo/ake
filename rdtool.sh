@@ -41,7 +41,7 @@ install_node(){
   nvm install node $1
 }
 stark(){
-  echo "hi stark $1"
+  echo "hi $1"
 }
 
 addUser(){
@@ -66,6 +66,7 @@ addUser(){
 case "${arg1}" in
     init) init ;;
     zsh) install_zsh ;;
+    stark) stark ;;
     docker) install_docker ;;
     addUser) addUser ${arg2} ;;
     *)
