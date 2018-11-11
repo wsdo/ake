@@ -8,7 +8,7 @@ echo 开始下载 Oh My rdtool...
 curl -o $rdtool_path https://raw.githubusercontent.com/rdhub-lib/rdtool/master/rdtool.sh
 if [ 0 -eq $? ]; then
   chmod 755 $rdtool_path
-  echo 成功安装 rdtool，现在可以运行 rdtool 打开微信了
+  echo 成功安装 rdtool，现在可以愉快的使用 rdtool
 else
   echo 下载 rdtool 时失败，请稍后重试。
   exit 1
