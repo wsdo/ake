@@ -10,11 +10,6 @@ export PATH
 #     exit 1
 # fi
 
-echo "+-------------------------------------------+"
-echo "|              Welcome to rdtool            |"
-echo "+-------------------------------------------+"
-echo "|              https://rdhub.cn             |"
-echo "+-------------------------------------------+"
 
 arg1=$1
 arg2=$2
@@ -41,7 +36,7 @@ install_node(){
   nvm install node $1
 }
 stark(){
-  echo "hi $1"
+  echo "hi ${arg1}"
 }
 
 addUser(){
@@ -66,10 +61,15 @@ addUser(){
 case "${arg1}" in
     init) init ;;
     zsh) install_zsh ;;
-    stark) stark ;;
+    stark) stark ${arg1} ;;
     docker) install_docker ;;
     addUser) addUser ${arg2} ;;
     *)
+        echo "+-------------------------------------------+"
+        echo "|              Welcome to rdtool            |"
+        echo "+-------------------------------------------+"
+        echo "|              https://rdhub.cn             |"
+        echo "+-------------------------------------------+"
         echo "Usage: rdtool { zsh|init|docer| addUser}"
         ;;
 esac
