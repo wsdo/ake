@@ -66,11 +66,11 @@ case "${arg1}" in
     addUser) addUser ${arg2} ;;
     *)
         echo "+-------------------------------------------+"
-        echo "|              Welcome to rdtool            |"
+        echo "|              Welcome to ake sh            |"
         echo "+-------------------------------------------+"
-        echo "|              https://rdhub.cn             |"
+        echo "|              https://shudong.wang         |"
         echo "+-------------------------------------------+"
-        echo "Usage: rdtool { zsh|init|docer| addUser}"
+        echo "Usage: ake { zsh|init|docer| addUser}"
         ;;
 esac
 exit
