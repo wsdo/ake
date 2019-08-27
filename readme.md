@@ -8,9 +8,12 @@
 
 ## intro
 ake is thug
-<h4> 阿珂是一个刺客 </h4>
-![2019-08-27-20-29-29](http://s.shudong.wang/2019-08-27-20-29-29.png)
+<!-- <h4> 阿珂是一个刺客 </h4> -->
 > like: Swiss army knife
+
+![2019-08-27-20-29-29](http://s.shudong.wang/2019-08-27-20-29-29.png)
+
+
 
 ## feature
 * [x] auto tag
