@@ -20,6 +20,11 @@
 sh -c "$(wget https://raw.githubusercontent.com/wsdo/ake/master/install.sh -O -)"
 ```
 
+#### update
+```
+sh -c "$(wget https://raw.githubusercontent.com/wsdo/ake/master/install.sh -O -)"
+```
+
 ## Author
 
 👤 **stark**
