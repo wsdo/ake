@@ -26,7 +26,7 @@ init(){
 
 tag(){
 #get highest tag number
-git fetch --tags
+# git fetch --tags
 VERSION=`git tag | tail -1`
 # VERSION=`git describe --abbrev=0 --tags`
 
@@ -46,6 +46,18 @@ NEW_TAG="$VNUM1.$VNUM2.$VNUM3"
 
 echo "Updating $VERSION to $NEW_TAG"
 
+
+while :;do
+message=""
+read -p "Enter tag message: " message
+if [ "${message}" = "" ]; then
+    echo "Error: message can't be NULL!!"
+else
+    break
+fi
+
+done
+
 #get current hash and see if it already has a tag
 GIT_COMMIT=`git rev-parse HEAD`
 NEEDS_TAG=`git describe --contains $GIT_COMMIT`
@@ -53,7 +65,7 @@ NEEDS_TAG=`git describe --contains $GIT_COMMIT`
 #only tag if no tag already (would be better if the git describe command above could have a silent option)
 if [ -z "$NEEDS_TAG" ]; then
     echo "Tagged with $NEW_TAG (Ignoring fatal:cannot describe - this means commit is untagged) "
-    git tag $NEW_TAG -m"${arg1}"
+    git tag $NEW_TAG -m"${message}"
     git push --tags
 else
     echo "Already a tag on this commit"
@@ -96,7 +108,7 @@ addUser(){
 
 case "${arg1}" in
     init) init ;;
-    tag) tag ;;
+    tag) tag ${arg2};;
     zsh) install_zsh ;;
     stark) stark ${arg1} ;;
     docker) install_docker ;;
