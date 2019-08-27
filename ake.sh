@@ -21,7 +21,8 @@ apt-get -y install  zsh && sh -c "$(wget https://raw.github.com/robbyrussell/oh-
 }
 
 init(){
-    apt-get -y install git zsh
+    # apt-get -y install git zsh
+    echo '暂不支持该功能'
 }
 
 tag(){

@@ -5,7 +5,7 @@ if [ ! -w /usr/local/bin ]; then
   sudo chown $(whoami) /usr/local/bin
 fi
 echo 开始下载 Oh My ake...
-curl -o $ake_path https://raw.githubusercontent.com/wsdo/ake/master/install.sh
+curl -o $ake_path https://raw.githubusercontent.com/wsdo/ake/master/ake.sh
 if [ 0 -eq $? ]; then
   chmod 755 $ake_path
   echo 成功安装 ake，现在可以愉快的使用 ake
