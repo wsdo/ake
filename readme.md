@@ -38,6 +38,21 @@ sh -c "$(wget https://raw.githubusercontent.com/wsdo/ake/master/install.sh -O -)
 sh -c "$(wget https://raw.githubusercontent.com/wsdo/ake/master/install.sh -O -)"
 ```
 
+## example
+###### auto push tag
+```
+ake tag
+```
+![2019-08-27-20-34-04](http://s.shudong.wang/2019-08-27-20-34-04.png)
+
+![2019-08-27-20-34-55](http://s.shudong.wang/2019-08-27-20-34-55.png)
+
+###### install zsh
+
+```
+ake zsh
+```
+
 ## Author
 
 👤 **stark**
