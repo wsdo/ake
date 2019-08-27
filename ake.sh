@@ -46,7 +46,6 @@ NEW_TAG="$VNUM1.$VNUM2.$VNUM3"
 
 echo "Updating $VERSION to $NEW_TAG"
 
-
 while :;do
 message=""
 read -p "Enter tag message: " message
@@ -55,7 +54,6 @@ if [ "${message}" = "" ]; then
 else
     break
 fi
-
 done
 
 #get current hash and see if it already has a tag
