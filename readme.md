@@ -6,9 +6,16 @@
   </a>
 </p>
 
-## 使用方式
+## feature
+* [x] auto tag
+* [x] install zsh
+* [x] install docker
+* [ ] install node
+* [ ] change node Version
 
-#### 安装
+## how to use
+
+#### install
 ```
 sh -c "$(wget https://raw.githubusercontent.com/wsdo/ake/master/install.sh -O -)"
 ```
@@ -17,6 +24,7 @@ sh -c "$(wget https://raw.githubusercontent.com/wsdo/ake/master/install.sh -O -)
 
 👤 **stark**
 
+* Blog: [Blog](https://shudong.wang)
 * Twitter: [@wsd312](https://twitter.com/wsd312)
 * Github: [@wsdo](https://github.com/wsdo)
 
