@@ -21,6 +21,10 @@ ake is thug
 * [x] install docker
 * [ ] install node
 * [ ] change node Version
+* [ ] install nginx
+* [ ] install mysql
+* [ ] install mongodb
+* [ ] install php
 
 ## how to use
 
