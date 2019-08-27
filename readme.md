@@ -6,6 +6,12 @@
   </a>
 </p>
 
+## intro
+ake is thug
+<h4> 阿珂是一个刺客 </h4>
+![2019-08-27-20-29-29](http://s.shudong.wang/2019-08-27-20-29-29.png)
+> like: Swiss army knife
+
 ## feature
 * [x] auto tag
 * [x] install zsh
