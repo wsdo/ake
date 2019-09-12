@@ -1,4 +1,6 @@
 #!/bin/bash
+# version: v1.0.0
+
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 
