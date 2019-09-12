@@ -8,7 +8,7 @@ echo 开始下载 Oh My ake...
 curl -o $ake_path https://raw.githubusercontent.com/wsdo/ake/master/ake.sh
 if [ 0 -eq $? ]; then
   chmod 755 $ake_path
-  echo 成功安装v1.0.0 ake，现在可以愉快的使用 ake
+  echo 成功安装 ake: v1.0.0，现在可以愉快的使用 ake
 else
   echo 下载 ake 时失败，请稍后重试。
   exit 1
