@@ -28,7 +28,11 @@ init(){
 tag(){
 #get highest tag number
 # git fetch --tags
-VERSION=`git tag | tail -1`
+VERSION=`git tag --sort=taggerdate | tail -1`
+if [ !$VERSION ]
+then 
+VERSION='v0.0.0'
+fi
 # VERSION=`git describe --abbrev=0 --tags`
 
 arg1=$1
