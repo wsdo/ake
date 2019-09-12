@@ -118,7 +118,7 @@ case "${arg1}" in
         echo "+-------------------------------------------+"
         echo "|              https://shudong.wang         |"
         echo "+-------------------------------------------+"
-        echo "Usage: ake { zsh|init|docer| addUser}"
+        echo "Usage: ake { tag | zsh|init|docer| addUser}"
         ;;
 esac
 exit
