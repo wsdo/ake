@@ -29,9 +29,9 @@ tag(){
 #get highest tag number
 # git fetch --tags
 VERSION=`git tag --sort=taggerdate | tail -1`
-if [ !$VERSION ]
+if [!$VERSION]
 then 
-VERSION='v0.0.0'
+VERSION='v1.0.0'
 fi
 # VERSION=`git describe --abbrev=0 --tags`
 
@@ -49,7 +49,7 @@ VNUM3=$((VNUM3+1))
 #create new tag
 NEW_TAG="$VNUM1.$VNUM2.$VNUM3"
 
-echo "Updating $VERSION to \033[4;32m $NEW_TAG \033[0m"
+echo -e "Updating $VERSION to \033[4;32m $NEW_TAG \033[0m"
 
 while :;do
 message=""
