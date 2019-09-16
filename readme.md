@@ -6,8 +6,18 @@
   </a>
 </p>
 
+
 ## intro
 ake is thug
+> 一款 mac or Linux系统的命令行工具，就像瑞士军刀一样功能丰富。
+
+#### github
+[github地址](https://github.com/wsdo/ake.git)
+#### 起源
+> 当我们在一台 服务器上，或者新的mac系统上，会安装各种软件，去各种网站找，想拥有一款类似 brew这种工具，
+> 来做brew 包含brew的所有功能，且实现一些开发常用的一些功能，
+> 比如在项目中自动打tag标签，自动生成项目readme文件。
+
 <!-- <h4> 阿珂是一个刺客 </h4> -->
 > like: Swiss army knife
 

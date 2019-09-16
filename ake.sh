@@ -1,4 +1,6 @@
 #!/bin/bash
+# version: v1.0.0
+
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 
@@ -49,7 +51,7 @@ VNUM3=$((VNUM3+1))
 #create new tag
 NEW_TAG="$VNUM1.$VNUM2.$VNUM3"
 
-echo -e "Updating $VERSION to \033[4;32m $NEW_TAG \033[0m"
+echo -e "Updating $VERSION to \033[1;32m$NEW_TAG \033[0m"
 
 while :;do
 message=""
@@ -122,7 +124,7 @@ case "${arg1}" in
         echo "+-------------------------------------------+"
         echo "|              https://shudong.wang         |"
         echo "+-------------------------------------------+"
-        echo "Usage: ake { zsh|init|docer| addUser}"
+        echo "Usage: ake { tag | zsh|init|docer| addUser}"
         ;;
 esac
 exit
