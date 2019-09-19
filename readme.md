@@ -37,15 +37,16 @@ ake is thug
 * [ ] install php
 
 ## how to use
-
+<!-- sh -c "$(curl -fsSL https://raw.githubusercontent.com/wsdo/ake/master/install.sh)" -->
+<!-- sh -c "$(wget https://raw.githubusercontent.com/wsdo/ake/master/install.sh -O -)" -->
 #### install
 ```
-sh -c "$(wget https://raw.githubusercontent.com/wsdo/ake/master/install.sh -O -)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/wsdo/ake/master/install.sh)"
 ```
 
 #### update
 ```
-sh -c "$(wget https://raw.githubusercontent.com/wsdo/ake/master/install.sh -O -)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/wsdo/ake/master/install.sh)"
 ```
 
 ## example
